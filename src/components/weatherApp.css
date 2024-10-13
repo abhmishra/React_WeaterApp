@@ -1,0 +1,122 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center;
+  }
+  
+  /* Header */
+  .header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: navy;  /* Navy blue background for the header */
+    color: #fff;
+  }
+  
+  .header-title {
+    font-size: 1.8rem;
+    margin-left: 20px;
+    font-weight: bold;
+  }
+  
+  .city-input {
+    width: 30%;
+    padding: 10px;
+    font-size: 1.2rem;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.9);
+    transition: 0.3s;
+  }
+  
+  .city-input:hover, .city-input:focus {
+    background-color: rgba(255, 255, 255, 1);
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Weather Details Section */
+  .weather-details {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+  }
+  
+  .weather-info h2 {
+    font-size: 2.5rem;
+    color: #fff;
+    margin-bottom: 10px;
+  }
+  
+  .weather-info p {
+    font-size: 1.6rem;
+    color: #fff;
+  }
+  
+  .weather-icon {
+    width: 120px;
+    height: 120px;
+    margin-top: 20px;
+  }
+  
+  /* Footer Section */
+  .footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 100%;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.8); /* Darker background for contrast */
+    border-radius: 20px 20px 0 0;
+  }
+  
+  .city-tile {
+    width: 22%;
+    display: flex;
+    justify-content: space-between;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 20px;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .city-tile:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.3);
+  }
+  
+  .city-info {
+    width: 50%;
+    padding: 20px;
+    color: #fff;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.6); /* Semi-transparent black for better text visibility */
+  }
+  
+  .city-image {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.2);
+  }
+  
+  .city-weather-icon {
+    width: 90px;
+    height: 90px;
+  }
+  
